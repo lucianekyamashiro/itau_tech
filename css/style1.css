@@ -62,13 +62,15 @@ h1, h2, h3, h4, h5{
 p {
     margin: 30px;
 }
-#video {
+#video, #audio {
       margin: 30px
   }
+
 #rodape{
     margin-left:  1%;
     margin-right: 1%;
     margin-bottom: 1%;
+    background-color: silver;
 
 
 }
