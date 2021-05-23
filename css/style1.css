@@ -89,3 +89,43 @@ p {
     width: 20px;
     padding-left: 30px;
 }
+
+
+form{
+    font-size: 16px;
+    background: rgb(146, 142, 142);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+}
+
+
+
+input, textarea{
+    width: 500px;
+    padding: 10px;
+    text-align:left;
+    
+    }
+    
+.enviar input {
+    background-color: #069;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+    cursor:pointer;
+    text-align: center;
+    }    
+
+textarea {
+    width: 500px;
+    height: 120px;
+    line-height: 20px;
+       
+    }
