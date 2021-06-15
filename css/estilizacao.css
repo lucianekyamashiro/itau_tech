@@ -1,0 +1,149 @@
+#area
+{
+  position:relative;
+  padding: 10px;
+  left: 30%;
+  top: 30%;
+  width:400px;
+  height: 270px;
+}
+#area #formulario
+{
+  position:relative;
+  display:block;
+}
+fieldset
+{
+  width:500px;
+  
+}
+
+
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+#formulario label{
+  position:absolute;
+  left:24px;
+  margin-right:5px;
+}
+
+
+#formulario input.campoNome{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+  
+}
+
+#formulario input.campo_sobrenome{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario select {
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_telFixo{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_celular{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_id{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_orgao{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_cpf{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_logradouro{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_comp{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_bairro{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_city{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
+#formulario input.campo_uf{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+
+}
+
+#formulario input.campo_cep{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+
+}
+
+.enviar input {
+  background-color: #069;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: #FFF;
+  cursor:pointer;
+  text-align: center;
+  box-sizing: border-box;
+  }    

@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/estilizacao.css">
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <div id=inicio>
+            <h3>Formulário de Contato</h3>
+        </div>
+    </header>
+
+    <div id="area">
+        <form id="formulario" action="" method="post" enctype="multipart/form-data" data-netlify="true">
+            <fieldset>
+                <legend>Dados Pessoais e Contato</legend>
+                <label>Nome:</label><input class="campoNome" type="text" placeholder="Insira seu nome" required="required"></br>
+                <label>Sobrenome:</label><input class="campo_sobrenome" type="text" placeholder="Insira seu sobrenome" required="required"></br>
+                <label>Sexo:</label>
+                    <select id="campo_sexo" name="sexo">
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                </br>
+                <label>Telefone Fixo:</label><input class="campo_telfixo" type="text" placeholder="Insira seu Telefone"></br>
+                <label>Telefone celular:</label><input class="campo_celular" type="text" required="required" placeholder="Insira seu Celular"></br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Documentos</legend>
+                <label>Identidade:</label><input class="campo_id" type="text" placeholder="Insira sua Identidade"></br>
+                <label>Órgão Emissor:</label><input class="campo_orgao" type="text" placeholder="Órgão de Expedição"></br>
+                <label>CPF:</label><input class="campo_cpf" type="text" required="required" placeholder="Insira seu CPF"></br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>Logradouro:</label><input class="campo_logradouro" type="text" required="required" placeholder="Insira seu Endereço"></br>
+                <label>Complemento:</label><input class="campo_comp" type="text" required="required" placeholder="Insira seu complemento"></br>
+                <label>Bairro:</label><input class="campo_bairro" type="text" required="required" placeholder="Insira seu Bairro"></br>
+                <label>Cidade:</label><input class="campo_city" type="text" required="required" placeholder="Insira sua Cidade"></br>
+                <label>UF:</label><input class="campo_UF" type="text" required="required" placeholder="Insira seu Estado"></br>
+                <label>CEP:</label><input class="campo_cep" type="text" required="required" placeholder="Insira seu CEP"></br>
+            </fieldset>
+
+      
+            <p class="enviar">
+                <input type="submit" name="enviar" value="Enviar">
+            </p>
+      
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
