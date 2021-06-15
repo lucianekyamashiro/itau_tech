@@ -131,10 +131,16 @@ legend
   box-sizing: border-box;
 
 }
-
-#formulario input.btn_submit
-{
-  position:absolute;
-  bottom: 0.5em;
-  right:10px;
-}
+.enviar input {
+  background-color: #069;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: #FFF;
+  cursor:pointer;
+  text-align: center;
+  }    
