@@ -1,7 +1,7 @@
 <Script>
 
     function verificarcampos(){
-        var input = document.getElementsByClassName('required');
+        var input = document.getElementsByName('required');
       var len = input.length;
       var valid = true;
       for(var i=0; i < len; i++){
@@ -65,9 +65,9 @@
                 <fieldset>
                     <legend>Endereço</legend>
                     <label>Logradouro:</label><input name="campo_logradouro" type="text"
-                        placeholder="Insira seu Endereço"></br>
+                        placeholder="Insira seu Endereço" required="required"></br>
                     <label>Complemento:</label><input name="campo_comp" type="text"
-                        placeholder="Insira seu complemento"></br>
+                        placeholder="Insira seu complemento" required="required"></br>
                     <label>Bairro:</label><input name="campo_bairro" type="text" placeholder="Insira seu Bairro"></br>
                     <label>Cidade:</label><input name="campo_city" type="text" placeholder="Insira sua Cidade"></br>
                     <label>UF:</label><input name="campo_UF" type="text" placeholder="Insira seu Estado"></br>
