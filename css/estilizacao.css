@@ -133,7 +133,7 @@ legend
 
 }
 
-.enviar input {
+#formulario .enviar input {
   background-color: #069;
   height: 40px;
   width: 150px;
