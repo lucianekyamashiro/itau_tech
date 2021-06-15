@@ -32,7 +32,7 @@ legend
 }
 
 
-.campoNome input{
+#campoNome input{
   width: 100%;
   padding: 10px 30px;
   margin: 25px 2px;
