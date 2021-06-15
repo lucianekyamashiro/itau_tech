@@ -41,6 +41,13 @@ input
   
 }
 
+#formulario select {
+  width: 100%;
+  padding: 10px 30px;
+  margin: 25px 2px;
+  box-sizing: border-box;
+}
+
 .enviar input {
   background-color: #069;
   height: 40px;
